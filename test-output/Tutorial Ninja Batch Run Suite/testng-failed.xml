@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Tutorial Ninja Batch Run Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Batch Running Test(failed)">
+    <classes>
+      <class name="com.automationcode.tutorialsninja.TutorialsNinjaLoginVerificationTest">
+        <methods>
+          <include name="verifyTNinjaLoginPolicyWarningTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automationcode.tutorialsninja.TutorialsNinjaLoginVerificationTest -->
+      <class name="com.automationcode.tutorialsninja.TutorialsNinjaRegisterVerificationTest">
+        <methods>
+          <include name="verifyTNinjaEmailPolicyWarningTest"/>
+          <include name="verifyTNinjaPasswordPolicyWarningTest"/>
+          <include name="verifyTNinjaLastNamePolicyWarningTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyTNinjaRegisterPolicyWarningTest"/>
+          <include name="verifyTNinjaTelephonePolicyWarningTest"/>
+          <include name="verifyTNinjaFirstNamePolicyWarningTest"/>
+        </methods>
+      </class> <!-- com.automationcode.tutorialsninja.TutorialsNinjaRegisterVerificationTest -->
+      <class name="com.automationcode.tutorialsninja.AddtoShoppingCart">
+        <methods>
+          <include name="addToCart"/>
+          <include name="openBrowser"/>
+          <include name="addToCart1"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automationcode.tutorialsninja.AddtoShoppingCart -->
+      <class name="com.automationcode.tutorialsninja.SearchProductValidation">
+        <methods>
+          <include name="SearchProducts"/>
+          <include name="validationofSearchProduct"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automationcode.tutorialsninja.SearchProductValidation -->
+      <class name="com.automationcode.tutorialsninja.Tutorialsninja_Login">
+        <methods>
+          <include name="tearDown"/>
+          <include name="logoutCredentials"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- com.automationcode.tutorialsninja.Tutorialsninja_Login -->
+      <class name="com.automationcode.tutorialsninja.SearchProduct">
+        <methods>
+          <include name="tearDown"/>
+          <include name="Addavalidproduct"/>
+          <include name="SearchProducts"/>
+        </methods>
+      </class> <!-- com.automationcode.tutorialsninja.SearchProduct -->
+      <class name="com.automationcode.tutorialsninja.LoginVerificationTN">
+        <methods>
+          <include name="loginWithNoCredentials"/>
+          <include name="Login"/>
+          <include name="loginWithInvalidCredentials"/>
+          <include name="loginWithValidEmailinvalidPasswordCredentials"/>
+          <include name="loginWithInvalidEmailValidPasswordCredentials"/>
+          <include name="tearDown"/>
+          <include name="logoutCredentials"/>
+        </methods>
+      </class> <!-- com.automationcode.tutorialsninja.LoginVerificationTN -->
+      <class name="com.automationcode.tutorialsninja.AddtoCart">
+        <methods>
+          <include name="tearDown"/>
+          <include name="addToCart1"/>
+          <include name="addToCart"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.automationcode.tutorialsninja.AddtoCart -->
+    </classes>
+  </test> <!-- Batch Running Test(failed) -->
+</suite> <!-- Failed suite [Tutorial Ninja Batch Run Suite] -->
